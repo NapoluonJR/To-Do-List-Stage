@@ -1,0 +1,55 @@
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.VW7-MLmXBbaOSaobULpCLQAAAA?rs=1&pid=ImgDetMain);
+    background-position: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: lightgray;
+    opacity: 0.5;
+    text-align: center;
+    padding: 15px; 
+    width: 100vh;
+}
+.container{
+    background-color: lightgray;
+    opacity: 0.5;
+    padding: 10px;
+    width: 100vh;
+}
+input{
+    width: 65%;
+    padding: 10px;
+}
+.Cbien{
+    border: 1px solid black;
+    width: 25%;
+    padding: 10px;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+}
+.boxsizing{
+    height: 350px;
+    width: 275px;
+    border: 1px dashed black;
+    background-color: lightgray;
+    opacity: 0.5;
+    margin-top: 50px;
+}
+ul li{
+    text-align: center;
+    cursor: pointer;
+}
+li{
+    border: 1px solid black;
+    margin: 10px;
+}
